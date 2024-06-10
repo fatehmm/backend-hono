@@ -1,4 +1,5 @@
 {
+	"exclude": ["node_modules"],
 	"compilerOptions": {
 		"target": "ESNext",
 		"module": "ESNext",
@@ -9,5 +10,6 @@
 		"types": ["node"],
 		"jsx": "react-jsx",
 		"jsxImportSource": "hono/jsx",
+		"outDir": "./dist",
 	},
 }
